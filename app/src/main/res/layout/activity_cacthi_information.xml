@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CacthiInformation"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textviewten"
+        android:text="Ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:text="Tentienganh"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/textviewten"
+        android:id="@+id/textviewtenTA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:text="Cong thuc"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textviewten"
+        android:id="@+id/textviewcongthuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:text="Nhanbiet"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textviewcongthuc"
+        android:id="@+id/textviewnhanbiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:text="Cach dung"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/textviewnhanbiet"
+        android:id="@+id/textviewcachdung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+</RelativeLayout>
